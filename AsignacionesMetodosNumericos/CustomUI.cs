@@ -66,7 +66,7 @@ namespace AsignacionesMetodosNumericos
                 {
                     textBox.Font = fuenteChica;
                     textBox.BackColor = Color.FromArgb(240, 240, 240);
-                    textBox.ForeColor = Color.White;
+                    textBox.ForeColor = Color.Black;
                     textBox.BorderStyle = BorderStyle.FixedSingle;
                 }
                 else if (control is Panel panel)
@@ -113,7 +113,7 @@ namespace AsignacionesMetodosNumericos
                 {
                     comboBox.Font = fuenteChica;
                     comboBox.BackColor = Color.FromArgb(240, 240, 240);
-                    comboBox.ForeColor = Color.White;
+                    comboBox.ForeColor = Color.Black;
                     comboBox.FlatStyle = FlatStyle.Flat;
                     comboBox.DropDownStyle = ComboBoxStyle.DropDownList; // Evita la edición del texto
                 }
